@@ -1,5 +1,5 @@
 <?php
-	$host = "elloworld.noip.me:8000";
+	$host = "107.161.19.94:8000";
 	if (isset($_GET['h'])) $host = $_GET['h'];
 	$parts = explode(":", $host);
 	$host = $parts[0];
@@ -37,7 +37,7 @@
 <?php
 	// i commented everything out bcos u currently can't click on the links
 	//if (!isset($_GET['h'])) {
-		//echo '<div class="registryopaqueness" onclick="window.location.href = \'?h=elloworld.noip.me:8000\';">You can pick a server from the registry<br />OR you can stay here :)<br />At Hello World!<br />Please stay here :\'(</div><div class="registry">';
+		//echo '<div class="registryopaqueness" onclick="window.location.href = \'?h=107.161.19.94:8000\';">You can pick a server from the registry<br />OR you can stay here :)<br />At KTN League!<br />Please stay here :\'(</div><div class="registry">';
 		//include './registry.php';
 		//echo '</div>';
 	//}
